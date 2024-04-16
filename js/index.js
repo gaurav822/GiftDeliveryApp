@@ -6,8 +6,8 @@ var authenticated = false;
 
 $(document).ready(function () {
 
-	// localStorage.removeItem("allUsers");
-	// localStorage.removeItem("allOrders");
+	localStorage.removeItem("allUsers");
+	localStorage.removeItem("allOrders");
 	
 	
 	if (!localStorage.allUsers) {
